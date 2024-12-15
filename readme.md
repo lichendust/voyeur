@@ -10,7 +10,7 @@ Voyeur is an image viewer that just does the things you want it to —
 
 It does not open *slowly*, or at random window sizes or image scales. It does not disable the controls if you're zoomed in. It does not force you to tell it, over and over again, that you want the image to be the largest it can be on your screen.
 
-# Formats
+## Formats
 
 - BMP
 - JPG
@@ -20,7 +20,7 @@ It does not open *slowly*, or at random window sizes or image scales. It does no
 
 That's it, that's what you get.
 
-# Controls
+## Controls
 
 - `Left`/`Right` to switch images in the open directory
 - `Z` to toggle auto-sizing when switching images (preserve scale/position for certain visual comparisons)
@@ -33,7 +33,7 @@ That's it, that's what you get.
 - Scroll to zoom
 - Left click and drag to pan
 
-# Notes
+## Notes
 
 - I wrote this thing in like an hour of actual programming time.
 - Zooming is wrongly focused on the image centre, not the pointer.  This will be fixed at some point.

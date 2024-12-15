@@ -16,7 +16,7 @@ import coreutil "github.com/hajimehoshi/ebiten/v2/ebitenutil"
 import "github.com/hajimehoshi/ebiten/v2/inpututil"
 
 const VERSION = "v0.0.0"
-const PROGRAM = "Voyeur " + VERSION
+const PROGRAM = "Voyeur 👁️ 👄 👁️ " + VERSION
 
 type Runtime struct {
 	skip_frame   bool
@@ -93,7 +93,6 @@ func main() {
 	}
 
 	run.active_image = img
-	run.scale = 1
 	run.auto_size = true
 
 	core.SetWindowTitle(PROGRAM)
@@ -102,6 +101,8 @@ func main() {
 	core.SetFullscreen(true)
 	core.SetVsyncEnabled(true)
 	core.SetWindowSizeLimits(512, 512, 999_999_999, 999_999_999)
+
+	run.scale = calculate_fit(img)
 
 	err = core.RunGame(run)
 	if err != nil {
