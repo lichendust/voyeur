@@ -23,6 +23,7 @@ github.com/ebitengine/purego/objc
 # github.com/hajimehoshi/ebiten/v2 v2.8.5
 ## explicit; go 1.22.0
 github.com/hajimehoshi/ebiten/v2
+github.com/hajimehoshi/ebiten/v2/inpututil
 github.com/hajimehoshi/ebiten/v2/internal/affine
 github.com/hajimehoshi/ebiten/v2/internal/atlas
 github.com/hajimehoshi/ebiten/v2/internal/buffered
